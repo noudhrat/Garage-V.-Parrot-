@@ -1,0 +1,114 @@
+
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+  a{
+    text-decoration: none;
+  }
+
+  .margin-top{
+    margin-top: 6rem;
+  }
+
+  /* header */
+
+   .header{
+    background-image: url("../img/pexels-jay-pizzle-3849555.jpg");
+     background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  } 
+  
+
+    /* swiper js temoignage */
+      .temoignage a{
+        text-align: center;
+      }
+
+    swiper-slide {
+      text-align: center;
+
+    }
+
+    .card .profile-details {
+      padding: 8px;
+    }
+
+    .profile-text p{
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+   
+     
+
+
+    /* footer */
+    /* footer{
+      background-color: var(--noir);
+    } */
+
+
+
+
+   /* media queries */
+   @media screen and (max-width: 767px) {
+ 
+
+
+
+    .card img{
+      display: flex;
+      flex-direction: column;
+      max-width: 100%;
+    }
+
+    .services .card{
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      padding: 0;
+      max-width: 70%;
+    }
+
+    .apropos{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+
+  /* profile */
+  .utilisateur p{
+    font-size: 13px;
+  }
+
+  
+  
+  
+    footer{
+      display: flex;
+      flex-direction: column;
+    }
+
+   
+   }
+
+
+   @media screen and (min-width: 767px) {
+    .card{
+      margin: 0;
+      padding: 0;
+      max-width: 640px;
+    }
+
+   }
