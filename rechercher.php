@@ -17,10 +17,10 @@ if (empty($voitures)) {
 } else {
 foreach ($voitures as $voiture) {
     ?>
-    <div class="col-md-3 mb-4 mx-5">
+    <div class="col-md-3 mb-4 card-voiture">
         <div class="card">
             <a href="description_voiture.php?id=<?= $voiture['id']; ?>">
-                <img src="<?= $voiture['image']; ?>" class="card-img-top" alt="Image de la voiture">
+                <img src="<?= $voiture['image']; ?>" class="card-img-top img-fluid" alt="Image de la voiture">
             </a>
             <div class="card-body">
                 <h5 class="card-title fw-bold"><?= $voiture['marque']; ?></h5>

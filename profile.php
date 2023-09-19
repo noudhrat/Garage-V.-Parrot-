@@ -231,7 +231,8 @@
             
         } else {
             // Afficher le contenu personnalisé pour les autres utilisateurs (employee)
-            echo "<h3 class= mx-5>Page employee</h3>";
+            echo "<h3 class= mx-5>Page employee</h3>
+                  <p class= mx-5>" . $usersInfos['email'] . "</p>";
             ?>
             
             <!-- affichage des témoignages -->

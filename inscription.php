@@ -10,18 +10,18 @@
 
           <h1 class="underline">Inscrivez-vous !</h1>
           <div class="form-group mt-2">
-              <label for="exampleInputEmail1" class="sr-only"></label>
+              <label class="sr-only"></label>
               <input  type="text"  class="form-control" placeholder="votre nom" autofocus name="lastname">
           </div>
 
           <div class="form-group mt-2">
-              <label for="exampleInputEmail1" class="sr-only"></label>
+              <label class="sr-only"></label>
               <input type="text" class="form-control" placeholder="votre prenom" autofocus name="firstname">
           </div>
 
           <div class="form-group mt-2">
               <label for="exampleInputEmail1" class="sr-only"></label>
-              <input type="text" class="form-control" placeholder="votre email" autofocus name="email">
+              <input type="email" class="form-control" placeholder="votre email" autofocus name="email">
           </div>
 
           <div class="form-group mt-2">
@@ -29,7 +29,7 @@
             <input type="password"  class="form-control" placeholder="mot de passe" name="password">
           </div>
 
-          <button   class="mt-4 btn btn-primary mb-5" type="submit"  name="validate">S'inscrire</button>
+          <button class="mt-4 btn btn-primary mb-5" type="submit"  name="validate">S'inscrire</button>
           <br><br>
         </form>
     </div>
