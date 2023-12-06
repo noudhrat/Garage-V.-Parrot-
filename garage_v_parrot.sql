@@ -68,3 +68,13 @@ CREATE TABLE caracteristique (
 ALTER TABLE caracteristique
 ADD CONSTRAINT unique_nom_valeur UNIQUE (nom, description);
 
+
+ALTER TABLE description_voiture
+MODIFY COLUMN image BLOB;
+
+ALTER TABLE services
+MODIFY COLUMN image BLOB;
+
+ALTER TABLE voitures
+MODIFY COLUMN image BLOB;
+
